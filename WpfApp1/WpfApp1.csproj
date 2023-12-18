@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Wheel_Test.psd" />
+    <None Remove="Wheel_Test_Backing.png" />
+    <None Remove="Wheel_Test_Centre.png" />
+    <None Remove="Wheel_Test_Pin.png" />
+    <None Remove="Wheel_Test_Rim.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Aspose.PSD" Version="23.11.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Wheel_Test.psd" />
+    <Resource Include="Wheel_Test_Backing.png" />
+    <Resource Include="Wheel_Test_Centre.png" />
+    <Resource Include="Wheel_Test_Pin.png" />
+    <Resource Include="Wheel_Test_Rim.png" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,40 @@
+﻿<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+	<Grid x:Name="gridWheel" Margin="-136,0,10,0">
+
+
+
+		<Image x:Name="imgWheel" HorizontalAlignment="Left" Height="326" Margin="241,67,0,0" VerticalAlignment="Top" Width="339" Source="/Wheel_Test_Backing.png"/>
+		<Image x:Name="imgCentre" HorizontalAlignment="Left" Height="313" Margin="248,75,0,0" VerticalAlignment="Top" Width="320" Source="/Wheel_Test_Centre.png" />
+		<Image HorizontalAlignment="Left" Height="336" Margin="236,61,0,0" VerticalAlignment="Top" Width="348" Source="/Wheel_Test_Rim.png"/>
+		<Image HorizontalAlignment="Left" Height="351" Margin="254,92,0,0" VerticalAlignment="Top" Width="300" Source="/Wheel_Test_Pin.png"/>
+		<Button x:Name="btnSpin" Content="SPIN" HorizontalAlignment="Left" Margin="366,214,0,0" VerticalAlignment="Top" RenderTransformOrigin="-7.147,-6.034" Height="36" Width="76" FontFamily="Algerian" FontSize="20" Click="btnSpin_Click_1"/>
+		<StackPanel x:Name="stack" HorizontalAlignment="Left" Height="184" Margin="632,154,0,0" VerticalAlignment="Top" Width="248">
+			<Label x:Name="lblSelect" Content="Select a Win Amount:" Height="43" Width="247" FontFamily="Arial Black" FontSize="20" FontWeight="Bold"/>
+			<Label Background="LightGreen">
+			<RadioButton x:Name="rbtnGreen" GroupName="WinAmount" IsChecked="True" FontWeight="Bold" FontFamily="Arial Black" FontSize="16">R5 (Green)</RadioButton>
+			</Label>
+			<Label Background="LightBlue">
+			<RadioButton x:Name="rbtnBlue" GroupName="WinAmount" IsChecked="False" FontWeight="Bold" FontFamily="Arial Black" FontSize="16">R10 (Blue)</RadioButton>
+			</Label>
+			<Label Background="Purple">
+			<RadioButton x:Name="rbtnPurple" GroupName="WinAmount" IsChecked="False" FontWeight="Bold" FontFamily="Arial Black" FontSize="16">R25 (Purple)</RadioButton>
+			</Label>
+			<Label Background="Yellow">
+			<RadioButton x:Name="rbtnYellow" GroupName="WinAmount" IsChecked="False" FontWeight="Bold" FontFamily="Arial Black" FontSize="16">R50 (Yellow)</RadioButton>
+			</Label>
+			<Label Background="Red">
+			<RadioButton x:Name="rbtnRed" GroupName="WinAmount" IsChecked="False" FontWeight="Bold" FontFamily="Arial Black" FontSize="16">R100 (Red)</RadioButton>
+			</Label>
+		</StackPanel>
+
+
+
+	</Grid>
+</Window>

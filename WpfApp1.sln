@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WpfApp1", "WpfApp1\WpfApp1.csproj", "{CFA41DA4-7D8C-458B-99B3-F10A0F94EE44}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F3128F42-DA01-410C-8225-5FA28BD7ED61}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\Downloads\Tick.wav = ..\..\..\Downloads\Tick.wav
+		..\..\..\Downloads\Wheel_Test.psd = ..\..\..\Downloads\Wheel_Test.psd
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Images", "Images", "{C711FE69-7A69-4D0B-B7DB-4AB95BD8FD96}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\Downloads\Wheel_Test_Backing.png = ..\..\..\Downloads\Wheel_Test_Backing.png
+		..\..\..\Downloads\Wheel_Test_Centre.png = ..\..\..\Downloads\Wheel_Test_Centre.png
+		..\..\..\Downloads\Wheel_Test_Pin.png = ..\..\..\Downloads\Wheel_Test_Pin.png
+		..\..\..\Downloads\Wheel_Test_Rim.png = ..\..\..\Downloads\Wheel_Test_Rim.png
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CFA41DA4-7D8C-458B-99B3-F10A0F94EE44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFA41DA4-7D8C-458B-99B3-F10A0F94EE44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFA41DA4-7D8C-458B-99B3-F10A0F94EE44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFA41DA4-7D8C-458B-99B3-F10A0F94EE44}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C711FE69-7A69-4D0B-B7DB-4AB95BD8FD96} = {F3128F42-DA01-410C-8225-5FA28BD7ED61}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {70C950FF-76D5-41E2-92F3-6F672929ABEA}
+	EndGlobalSection
+EndGlobal
